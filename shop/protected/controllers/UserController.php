@@ -7,9 +7,13 @@
  */
 class UserController extends Controller
 {
-
-    public function actionlogin(){
+    //登陆页面
+    public function actionLogin(){
         $this->renderPartial("login");
+    }
+    //注册页面
+    public function actionRegister(){
+        $this->renderPartial("register");
     }
 
 }

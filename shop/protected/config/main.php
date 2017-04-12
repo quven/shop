@@ -82,4 +82,6 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
 	),
+    //修改默认控制器
+    'defaultController'=>'Index',
 );
