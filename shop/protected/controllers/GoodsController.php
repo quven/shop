@@ -10,11 +10,11 @@ class GoodsController extends Controller
     //商品分类
     public function actionCategory(){
 
-        $this->renderPartial("category");
+        $this->render("category");
     }
     //商品详情
     public function actionDetail(){
-        $this->renderPartial("detail");
+        $this->render("detail");
     }
 
 }

@@ -32,3 +32,13 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/
 ---
+2017/04/17 19:01:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /Applications/MAMP/htdocs/learn/framework/web/CController.php:486
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CController.php(270): CController->missingAction('login')
+#1 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(282): CController->run('login')
+#2 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('goods/login')
+#3 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=goods/login
+---
