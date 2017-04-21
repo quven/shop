@@ -58,3 +58,414 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/index.php?r=admin
 ---
+2017/04/20 09:39:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/default/img/ecmoban_link.jpg".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/default/...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/ecmoban_link.jpg
+HTTP_REFERER=http://www.shop.com/
+---
+2017/04/20 09:39:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/default/img/yongda_logo.gif".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/default/...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/yongda_logo.gif
+HTTP_REFERER=http://www.shop.com/
+---
+2017/04/20 09:39:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.shop.com/
+---
+2017/04/20 09:39:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/default/img/yongda_logo.gif".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/default/...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/yongda_logo.gif
+HTTP_REFERER=http://www.shop.com/goods/detail
+---
+2017/04/20 09:39:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/default/img/ecmoban_link.jpg".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/default/...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/ecmoban_link.jpg
+HTTP_REFERER=http://www.shop.com/goods/detail
+---
+2017/04/20 09:39:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/default/img/zoomin.cur".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/default/...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/zoomin.cur
+HTTP_REFERER=http://www.shop.com/assets/default/css/style.css
+---
+2017/04/20 11:19:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/ecmoban_link.jpg".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/ecmoban_link.jpg
+HTTP_REFERER=http://admin.shop.com/
+---
+2017/04/20 11:19:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/yongda_logo.gif".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/yongda_logo.gif
+HTTP_REFERER=http://admin.shop.com/
+---
+2017/04/20 11:19:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/04/20 11:19:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/favicon.ico".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/favicon.ico')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.shop.com/
+---
+2017/04/20 11:19:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/04/20 11:20:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/goods/detail".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/goods/detai...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/goods/detail
+---
+2017/04/20 11:20:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/04/20 11:20:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/ecmoban_link.jpg".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/ecmoban_link.jpg
+HTTP_REFERER=http://admin.shop.com/
+---
+2017/04/20 11:20:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/yongda_logo.gif".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/yongda_logo.gif
+HTTP_REFERER=http://admin.shop.com/
+---
+2017/04/20 11:21:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/04/20 11:25:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/ecmoban_link.jpg".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/ecmoban_link.jpg
+HTTP_REFERER=http://admin.shop.com/
+---
+2017/04/20 11:25:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/yongda_logo.gif".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/yongda_logo.gif
+HTTP_REFERER=http://admin.shop.com/
+---
+2017/04/20 11:25:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/04/20 11:25:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/ecmoban_link.jpg".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/ecmoban_link.jpg
+HTTP_REFERER=http://admin.shop.com/
+---
+2017/04/20 11:25:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/yongda_logo.gif".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/yongda_logo.gif
+HTTP_REFERER=http://admin.shop.com/
+---
+2017/04/20 11:26:38 [error] [exception.CException] exception 'CException' with message 'Alias "application.modules.admin.WwwModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/MAMP/htdocs/learn/framework/YiiBase.php:323
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/YiiBase.php(197): YiiBase::import('application.mod...', true)
+#1 /Applications/MAMP/htdocs/learn/framework/base/CModule.php(282): YiiBase::createComponent('application.mod...', 'www', NULL, Array)
+#2 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(337): CModule->getModule('www')
+#3 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(276): CWebApplication->createController('www')
+#4 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www')
+#5 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#7 {main}
+REQUEST_URI=/
+---
+2017/04/20 11:26:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/yongda_logo.gif".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/yongda_logo.gif
+HTTP_REFERER=http://www.shop.com/
+---
+2017/04/20 11:26:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/ecmoban_link.jpg".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/ecmoban_link.jpg
+HTTP_REFERER=http://www.shop.com/
+---
+2017/04/20 11:26:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/yongda_logo.gif".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/yongda_logo.gif
+HTTP_REFERER=http://admin.shop.com/
+---
+2017/04/20 11:26:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/ecmoban_link.jpg".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/ecmoban_link.jpg
+HTTP_REFERER=http://admin.shop.com/
+---
+2017/04/20 11:30:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/04/20 11:30:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/04/20 11:30:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/04/20 11:30:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/yongda_logo.gif".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/yongda_logo.gif
+HTTP_REFERER=http://www.shop.com/
+---
+2017/04/20 11:30:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/ecmoban_link.jpg".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/ecmoban_link.jpg
+HTTP_REFERER=http://www.shop.com/
+---
+2017/04/20 11:31:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/04/20 11:31:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/yongda_logo.gif".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/yongda_logo.gif
+HTTP_REFERER=http://www.shop.com/default/index
+---
+2017/04/20 11:31:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/ecmoban_link.jpg".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/ecmoban_link.jpg
+HTTP_REFERER=http://www.shop.com/default/index
+---
+2017/04/20 11:33:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/04/20 11:40:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/yongda_logo.gif".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/yongda_logo.gif
+HTTP_REFERER=http://www.shop.com/
+---
+2017/04/20 11:40:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/ecmoban_link.jpg".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/ecmoban_link.jpg
+HTTP_REFERER=http://www.shop.com/
+---
+2017/04/20 11:41:17 [error] [php] Undefined variable: contents (/Applications/MAMP/htdocs/learn/shop/protected/modules/www/views/layouts/shop.php:2)
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CController.php(787): IndexController->renderFile()
+#1 /Applications/MAMP/htdocs/learn/shop/protected/modules/www/controllers/IndexController.php(7): IndexController->render()
+#2 /Applications/MAMP/htdocs/learn/framework/web/actions/CInlineAction.php(49): IndexController->actionIndex()
+#3 /Applications/MAMP/htdocs/learn/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /Applications/MAMP/htdocs/learn/framework/web/CController.php(286): IndexController->runAction()
+#5 /Applications/MAMP/htdocs/learn/framework/web/CController.php(265): IndexController->runActionWithFilters()
+#6 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(282): IndexController->run()
+#7 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/learn/shop/index.php(15): CWebApplication->run()
+REQUEST_URI=/
+in /Applications/MAMP/htdocs/learn/shop/protected/modules/www/views/layouts/shop.php (2)
+in /Applications/MAMP/htdocs/learn/shop/protected/modules/www/controllers/IndexController.php (7)
+in /Applications/MAMP/htdocs/learn/shop/index.php (15)
+2017/04/20 11:41:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/ecmoban_link.jpg".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/ecmoban_link.jpg
+HTTP_REFERER=http://www.shop.com/
+---
+2017/04/20 11:41:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/yongda_logo.gif".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/yongda_logo.gif
+HTTP_REFERER=http://www.shop.com/
+---
+2017/04/20 11:42:59 [error] [php] Undefined variable: contents (/Applications/MAMP/htdocs/learn/shop/protected/modules/www/views/layouts/shop.php:2)
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CController.php(787): IndexController->renderFile()
+#1 /Applications/MAMP/htdocs/learn/shop/protected/modules/www/controllers/IndexController.php(7): IndexController->render()
+#2 /Applications/MAMP/htdocs/learn/framework/web/actions/CInlineAction.php(49): IndexController->actionIndex()
+#3 /Applications/MAMP/htdocs/learn/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /Applications/MAMP/htdocs/learn/framework/web/CController.php(286): IndexController->runAction()
+#5 /Applications/MAMP/htdocs/learn/framework/web/CController.php(265): IndexController->runActionWithFilters()
+#6 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(282): IndexController->run()
+#7 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/learn/shop/index.php(15): CWebApplication->run()
+REQUEST_URI=/
+in /Applications/MAMP/htdocs/learn/shop/protected/modules/www/views/layouts/shop.php (2)
+in /Applications/MAMP/htdocs/learn/shop/protected/modules/www/controllers/IndexController.php (7)
+in /Applications/MAMP/htdocs/learn/shop/index.php (15)
+2017/04/20 11:44:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/yongda_logo.gif".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/yongda_logo.gif
+HTTP_REFERER=http://www.shop.com/
+---
+2017/04/20 11:44:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/ecmoban_link.jpg".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/ecmoban_link.jpg
+HTTP_REFERER=http://www.shop.com/
+---
+2017/04/20 11:48:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/yongda_logo.gif".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/yongda_logo.gif
+HTTP_REFERER=http://www.shop.com/
+---
+2017/04/20 11:48:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/default/img/ecmoban_link.jpg".' in /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('www/assets/defa...')
+#1 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/default/img/ecmoban_link.jpg
+HTTP_REFERER=http://www.shop.com/
+---

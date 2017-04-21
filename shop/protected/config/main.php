@@ -26,7 +26,14 @@ return array(
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
-        'admin'
+        'admin'=>array(
+            'class'=>'application.modules.admin.AdminModule',
+            'defaultController' => "index",
+        ),
+        'www'=>array(
+            'class'=>'application.modules.www.WwwModule',
+            'defaultController' => "index",
+        ),
 	),
 
 	// application components
@@ -38,16 +45,17 @@ return array(
 		),
 
 		// uncomment the following to enable URLs in path-format
-		/*
+
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
-				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+				//'<controller:\w+>/<id:\d+>'=>'<controller>/view',
+				//'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+                'http://<_m:(admin|www)>.'.HOST.'<_q:.*>/*'=>'<_m><_q>',
+                '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-		*/
+
 
 		// database settings are configured in database.php
 		'db'=>require(dirname(__FILE__).'/database.php'),
