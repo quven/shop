@@ -469,3 +469,79 @@ Stack trace:
 REQUEST_URI=/assets/default/img/ecmoban_link.jpg
 HTTP_REFERER=http://www.shop.com/
 ---
+2017/04/21 19:06:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /Applications/MAMP/htdocs/learn/framework/web/CController.php:486
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/index/img...')
+#3 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/index/img/menu_bg.jpg
+HTTP_REFERER=http://admin.shop.com/index.php/index/left
+---
+2017/04/21 19:06:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /Applications/MAMP/htdocs/learn/framework/web/CController.php:486
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/index/img...')
+#3 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/index/img/menu_icon.gif
+HTTP_REFERER=http://admin.shop.com/index.php/index/left
+---
+2017/04/21 19:06:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /Applications/MAMP/htdocs/learn/framework/web/CController.php:486
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/index/img...')
+#3 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/index/img/menu_bt.jpg
+HTTP_REFERER=http://admin.shop.com/index.php/index/left
+---
+2017/04/21 19:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /Applications/MAMP/htdocs/learn/framework/web/CController.php:486
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/index/img...')
+#3 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/index/img/menu_icon.gif
+HTTP_REFERER=http://admin.shop.com/index/left
+---
+2017/04/21 19:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /Applications/MAMP/htdocs/learn/framework/web/CController.php:486
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/index/img...')
+#3 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/index/img/menu_bg.jpg
+HTTP_REFERER=http://admin.shop.com/index/left
+---
+2017/04/21 19:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /Applications/MAMP/htdocs/learn/framework/web/CController.php:486
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/index/img...')
+#3 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/index/img/menu_bt.jpg
+HTTP_REFERER=http://admin.shop.com/index/left
+---
+2017/04/21 19:17:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "add".' in /Applications/MAMP/htdocs/learn/framework/web/CController.php:486
+Stack trace:
+#0 /Applications/MAMP/htdocs/learn/framework/web/CController.php(270): CController->missingAction('add')
+#1 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(282): CController->run('add')
+#2 /Applications/MAMP/htdocs/learn/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/goods/add')
+#3 /Applications/MAMP/htdocs/learn/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/learn/shop/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/goods/add
+---
