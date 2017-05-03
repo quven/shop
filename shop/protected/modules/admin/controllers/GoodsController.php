@@ -7,7 +7,11 @@ class GoodsController extends Controller
      */
     public function actionList()
     {
-        $this->renderPartial("list");
+        $modelGoods = new Goods();
+        //$goods_list = $modelGoods->findAll();
+        $sql = "select * from {{goods}} limit 3";  //sql语句查询
+        $goods_list = $modelGoods->findAllBySql($sql);
+        $this->renderPartial("list",['goods_list'=>$goods_list]);
     }
     /*
      * 添加商品

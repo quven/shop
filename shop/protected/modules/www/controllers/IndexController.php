@@ -10,6 +10,10 @@ class IndexController extends Controller
 
     public function actionIndex(){
 
+        $modelGoods = new Goods();
+        $res = $modelGoods->findAll();
+
+        print_r($res);die();
         $this->render("index");
     }
 

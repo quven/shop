@@ -73,11 +73,12 @@ return array(
 					'levels'=>'error, warning',
 				),
 				// uncomment the following to show log messages on web pages
-				/*
+                //页面底部产生日志信息
+                /*
 				array(
 					'class'=>'CWebLogRoute',
-				),
-				*/
+				),*/
+
 			),
 		),
 
